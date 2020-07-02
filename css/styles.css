@@ -1,0 +1,99 @@
+body {
+  font-size: 16px;
+  color: #D60927;
+  background-color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#header-nav {
+  background-color: #FF7610;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background: url("/Users/vysakhgnair/Desktop/BurgerHome/Web/after/images/logowhite.png") no-repeat;
+  width: 500px;
+  height: 80px;
+  margin: 0 0 0 -40px;
+  padding: 0;
+  background-position: left;
+}
+
+#nav-list {
+  margin: 17px -40px 0 0;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+
+}
+#nav-list a:hover {
+  color: #D60927;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #D60927;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url("/Users/vysakhgnair/Desktop/BurgerHome/Web/after/images/logowhite.png") no-repeat;
+    width: 300px;
+    height: 50px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    background-position: left;
+  }
+  #nav-list {
+  margin-top: 12px;
+}
+ 
+}
+  /* End Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	  #logo-img {
+    background: url("/Users/vysakhgnair/Desktop/BurgerHome/Web/after/images/logowhite.png") no-repeat;
+    width: 150px;
+    height: 20px;
+    margin: 20px -20px -10px -40px;
+    padding: 0;
+    background-position: left;
+  }
+  #nav-list {
+  margin-top: 8px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 90%;
+}
+#nav-list a:hover {
+  color: #D60927;
+}
+ 
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
