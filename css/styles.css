@@ -38,7 +38,195 @@ body {
   margin-top: -55px;
 }
 
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  background-color: #D60927;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-left: 70px;
+  margin-bottom: 35px;
+}
+section span{
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+.panel-footer div.text-center{
+  color: #ffffff;
+  margin-top: 45px;
+  font-weight: lighter;
+  background-color: #BF0722;
+  background-size: cover;
+}
+#about, #testimonials, #store{
+  font-size: 17px;
+
+}
+.jumbotron span{
+  position: absolute;
+  font-family: 'Chewy', cursive;
+  font-size: 65px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: -570px;
+  margin-top: 70px;
+}
+
+#customize{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 26px;
+  color: #FF7610;
+  line-height: 35px;
+  letter-spacing: 0;
+  margin-top: 110px;
+  margin-left: -640px; 
+
+}
+.btn-primary{
+  margin-top: 358px;
+  margin-left: -567px;
+  --button-color: #000000;
+  --button-background-color: silver;
+}
+/*first row*/
+
+#recom span{
+  margin-top: 20px;
+  margin-left: -50px;
+  font-size: 26px;
+  color: #D60927;
+}
+#menu-tile, #specials-tile {
+  height: 240px;
+  width: 350px;
+  margin-top: 15px;
+  margin-left: -50px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#fresh{
+  margin-top: 29px;
+  margin-left: -50px;
+  margin-bottom: 15px;
+  position: absolute;
+  overflow: hidden;
+  color: #D60927;
+  font-size: 20px;
+
+}
+#menu-tile-content div{
+	height: 240px;
+	width: 350px;
+	margin-top: 64px;
+	margin-left: -50px;
+	margin-bottom: 15px;
+	position: absolute;
+	overflow: hidden;
+	opacity: 0.5;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: lighter;
+	color: #D60927;
+}
+
+
+#menu-tile:hover, #specials-tile:hover {
+  box-shadow: 0 1px 10px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/2_350.jpg') no-repeat;
+  background-position: center;
+}
+
+
+#specials-tile {
+  background: url('../images/3_350.jpg') no-repeat;
+  margin-left: 10px;
+  background-position: center;
+}
+
+/* second row*/
+#kitc span{
+  margin-top: 70px;
+  margin-left: -50px;
+  font-size: 26px;
+  color: #D60927;
+}
+#menu2-tile, #specials2-tile{
+  height: 240px;
+  width: 350px;
+  margin-top: 15px;
+  margin-left: -50px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#fully{
+  margin-top: 29px;
+  margin-left: -50px;
+  margin-bottom: 15px;
+  position: absolute;
+  overflow: hidden;
+  color: #D60927;
+  font-size: 20px;
+
+}
+#menu2-tile-content div{
+	height: 240px;
+	width: 350px;
+	margin-top: 64px;
+	margin-left: -50px;
+	margin-bottom: 15px;
+	position: absolute;
+	overflow: hidden;
+	opacity: 0.5;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: lighter;
+	color: #D60927;
+}
+
+
+#menu2-tile:hover, #specials2-tile:hover {
+  box-shadow: 0 1px 10px 1px #cccccc;
+}
+
+#menu2-tile {
+  background: url('../images/4_350.jpg') no-repeat;
+  background-position: center;
+}
+
+
+#specials2-tile {
+  background: url('../images/5_350.jpg') no-repeat;
+  margin-left: 10px;
+  background-position: center;
+}
+
+
 @media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/1_1440.jpg') no-repeat;
+    height: 650px;
+    width: 1440px;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    margin-top: -30px;
+    margin-left: -150px;
+  }
 
 }
 
@@ -53,6 +241,13 @@ body {
     padding: 0;
     background-position: left;
   }
+   .container .jumbotron {
+    background: url('../images/1_992.jpg') no-repeat;
+    height: 558px;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+  }
   #nav-list {
   margin-top: 12px;
 }
@@ -63,7 +258,7 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	  #logo-img {
+	#logo-img {
     background: url("../images/logowhite.png") no-repeat;
     width: 150px;
     height: 20px;
@@ -71,18 +266,25 @@ body {
     padding: 0;
     background-position: left;
   }
-  #nav-list {
-  margin-top: 8px;
+    #nav-list {
+    margin-top: 8px;
+} 
+	#nav-list a {
+  	color: #ffffff;
+  	text-align: center;
+  	font-family: 'Varela Round', sans-serif;
+  	font-size: 90%;
 }
-#nav-list a {
-  color: #ffffff;
-  text-align: center;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 90%;
+	#nav-list a:hover {
+  	color: #D60927;
 }
-#nav-list a:hover {
-  color: #D60927;
-}
+	.container .jumbotron {
+    background: url('../images/1_768.jpg') no-repeat;
+    height: 432px;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+  }
  
 }
 /********** Extra small devices only **********/
@@ -96,4 +298,10 @@ body {
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
+  }
+  .container .jumbotron {
+    margin-top: 0;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
   }
